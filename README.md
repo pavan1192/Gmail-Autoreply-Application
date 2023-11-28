@@ -50,8 +50,9 @@ your application, follow these steps:
 
    ```bash
    git clone https://github.com/pavan1192/Gmail-Autoreply-Application.git
-
-**Navigate to the Project Directory:**
+  ```
+**Navigate to the Project Directory**
 
   ```bash
   cd your-repository
+  ```
