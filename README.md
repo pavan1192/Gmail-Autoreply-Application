@@ -68,3 +68,10 @@ npm install
 ```bash
 node index.js
 ```
+**Configuration**
+***Adjust the following parameters in your credentials.js file:***
+
+- CLIENT_ID: Your Google API client ID.
+- CLEINT_SECRET: Your Google API client secret.
+- REDIRECT_URI: Your Google API redirect URI.
+- REFRESH_TOKEN: Refresh token obtained from Google API.
