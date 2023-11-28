@@ -49,5 +49,9 @@ your application, follow these steps:
 **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/pavan1192/Gmail-Autoreply-Application.git
 
+**Navigate to the Project Directory:**
+
+  ```bash
+  cd your-repository
