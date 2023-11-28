@@ -7,4 +7,16 @@
 - Checks for new emails in a given Gmail ID.
 - Sends replies to emails that have no prior replies.
 - Adds a label to the email and moves the email to the label.
-- This app checks above steps every 45 to 120 in b/w sec  random time interval. 
+- This app checks above steps every 45 to 120 in b/w sec  random time interval.
+
+# Prerequisites
+
+- Node.js installed on your machine.
+- Google Cloud Console project set up with the Gmail API enabled.
+- OAuth2 credentials obtained from the Google Cloud Console.
+- credentials.js file with the following details:
+  - CLIENT_ID
+  - CLIENT_SECRET
+  - REDIRECT_URI
+  - REFRESH_TOKEN
+  - Installation
