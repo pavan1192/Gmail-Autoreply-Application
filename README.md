@@ -54,9 +54,16 @@ your application, follow these steps:
 **Navigate to the Project Directory:**
 
   ```bash
-  cd your-repository
+  cd Gmail-Autoreply-Application
   ```
 **Install Dependencies:**
 ```bash
 npm install
+```
+**Set Up Google API Credentials:**
+
+- Obtain CLIENT_ID, CLEINT_SECRET, REDIRECT_URI, and REFRESH_TOKEN from the Google Cloud Console and save them in a file named credentials.js in the project root.
+**Run the Application:**
+```bash
+node index.js
 ```
