@@ -11,7 +11,7 @@
     CLEINT_SECRET,
     REDIRECT_URI,
     REFRESH_TOKEN,
-  } = require("./credentials");
+  } = require("./credentials"); // -> here you can add any name for your choice that contain the id's
   
   //implemented the “Login with google” API here.
   //basically OAuth2 module allow to retrive an access token, refresh it and retry the request.
@@ -91,7 +91,7 @@
             });
   
             // Add a label to the email.
-            const labelName = "Auto-replyed";
+            const labelName = "Auto-replyed"; // -> here your can label the name as your choice
             await gmail.users.messages.modify({
               userId: "me",
               id: message.id,
