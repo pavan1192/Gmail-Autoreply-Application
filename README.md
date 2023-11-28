@@ -44,3 +44,10 @@ your application, follow these steps:
 16. Now, in your code, replace the placeholder values in the credentials.js file with the respective values you obtained: Replace CLIENT_ID with the client ID value. Replace CLEINT_SECRET with the client secret value. Replace REDIRECT_URI with the redirect URI value. Replace REFRESH_TOKEN with the refresh token value.
 17. Save the credentials.js file.6. In the "Authorized redirect URIs" field, enter the redirect URI where you want to receive the authorization
    code. For this code, you can use "https://developers.google.com/oauthplayground".
+
+# Installation
+**Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
